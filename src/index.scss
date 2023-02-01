@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Prelom SemiBold';
+  src: url('./Elements/Fonts/prelom-semi-bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'HelveticaNowDisplay Light';
+  src: url('./Elements/Fonts/HelveticaNowDisplay-Light.ttf') format('truetype');
+}
+
+:root {
+  // Colors
+  --green1: #108a00;
+  --black: #001e00;
+  --white: #ffffff;
+  --green2: #e4ebe4;
+
+  // fonts
+  --greetingFont: 'Prelom SemiBold', sans-serif;
+  --mainFont: 'HelveticaNowDisplay Light', sans-serif;
+}
+
+body {
+  font-family: var(--mainFont);
+}
